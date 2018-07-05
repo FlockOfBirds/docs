@@ -4,6 +4,41 @@ title: "Platform Portal"
 
 ## 2018
 
+### June 15th, 2018
+
+#### Improvements
+
+* We added support for client certificate validation in the **Access Restriction Profile** for Mendix Cloud V4 deployments.
+
+#### Fixes
+
+* We fixed the incorrect message that was shown during the scaling of a non-deployed environment. (Ticket 64799)
+* We reintroduced copy privileges for operations.
+* Retrieving an environment package via REST API is no longer broken. (Tickets 65348, 65370)
+
+### June 11th, 2018
+
+#### Improvements
+
+* We added alerts for when an application runs out of memory or otherwise unexpectedly crashes. This is only applicable to Mendix Cloud V4 deployments.
+
+### June 8th, 2018
+
+#### Improvements
+
+* We have introduced scaling via API for Mendix Cloud V4. It is now possible to scale Mendix Cloud V4 applications via the Deploy API. For instructions, see the [Deploy API](../../apidocs-mxsdk/apidocs/deploy-api).
+* We have aggregated the health icons for the acceptance and test environments in the **Nodes** dashboard and **Company Admin** screen. 
+
+  ![](attachments/CPHealthIcon.png)
+
+  * The health icon will display the health status of the environment that is in the worst condition. This is to prepare for an upcoming release that will support more than three environments per application.
+
+#### Fixes
+
+* We fixed the issue in our alerting infrastructure that prevented some Mendix Cloud V4 users from receiving alerts when their apps ran out of memory.
+* We fixed the problem that caused the Mendix Cloud V4 **Metrics** legend to remain on the screen even if the user navigated to a different page.
+* We fixed the health icon statuses of the environments so that they reflect the environment health with minimum delay.
+
 ### May 23rd, 2018
 
 #### Improvements
@@ -30,8 +65,8 @@ title: "Platform Portal"
 #### Fixes
 
 * On the **Feedback Details** page, the **Move to app** drop-down menu is visible again.
-* Special characters like **&** are now displayed correctly in the subject of Buzz notification emails.
-* The green call-to-action button in Buzz notification emails will now also work in Outlook for Windows. (Ticket 63452).
+* Special characters like `&` are now displayed correctly in the subject of **Buzz** notification emails.
+* The green call-to-action button in Buzz notification emails will now also work in Outlook for Windows. (Ticket 63452)
 * If there is a lot of activity in a Buzz thread, each notification email now displays the correct thread history, instead of each email containing the same comments.
 * We fixed two documentation links.
 

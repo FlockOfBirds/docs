@@ -1,6 +1,6 @@
 ---
 title: "Pages"
-category: "Modeler"
+category: "Desktop Modeler"
 ---
 
 This document describes what pages are for and what kind of widgets can be placed on them. The properties of a page, snippet, or layout document can be found on the documentation pages of those document types: [Page](page), [Snippet](snippet), and [Layout](layout) .
@@ -34,4 +34,6 @@ We discern the following categories of widgets:
     * Examples: save button, microflow button
 * [Report widgets](report-widgets) aggregate data and show it in the form of a table or a chart
     * Examples: basic report, report chart
+* [Chart widgets](charts-widgets) Graphically resprent data in various chart types
+    * Examples: line chart, bar chart, heatmap
 * Add-on widgets can be downloaded from the [Mendix App Store](https://appstore.mendix.com/) or created by yourself using JavaScript

@@ -10,6 +10,57 @@ These release notes are for the [beta](../beta-features/index) version of the We
 
 ## 2018
 
+### June 22nd, 2018
+
+#### Improvements
+
+* In the page editor, we improved the process of adding attributes in text widgets so that you can build applications even faster. Now, when selecting an attribute to use in the text, you can use <kbd>Ctrl</kbd> + <kbd>Space</kbd> as a keyboard shortcut.
+
+#### Fixes
+
+* In the page editor, we fixed the bug where PNG images could not be uploaded in Safari.
+
+### June 15th, 2018
+
+#### Fixes
+
+* We fixed the issue where the user got stuck on the loading spinner if the connection to the Web Modeler failed. Now, when the connection is restored, the page will reload.
+* We fixed the issue where the error pop-up window was not always on top of other pop-up windows.
+* We fixed the issue where custom widgets on the page could not be dragged once placed.
+* We fixed the issue where the user could drag items to the **Navigation Document** while in read-only mode.
+
+### June 11th, 2018
+
+#### New Features
+
+* Elective application upgrade: with the latest release of the Web Modeler, applications created with version 7.11 and above will not auto-upgrade when they are opened in the Web Modeler. Instead, users will receive a prompt to upgrade if it is available, but they do not have to select it. This is great for users on the business side and in IT who want to leverage both the Web Modeler and the Desktop Modeler to collaborate on the same application.
+
+#### Improvements
+
+* To improve the user experience, we added a pop-up window when the user goes offline with information that the internet connection has been lost. Once the connection is restored, the pop-up window will disappear automatically.
+* The selection of items in the lists opened from the left sidebar menu (for example, pages, domain models, microflows) has been improved, including use of the up arrow and down arrow keys.
+
+#### Fixes
+
+* We fixed the issue where the user ended up in read-only mode after refreshing.
+* We fixed the issue where single-key shortcuts were triggered by pressing <kbd>Ctrl</kbd> + {shortcut} or <kbd>Cmd</kbd> + {shortcut} (for example, the **Checks** panel was opened when pressing <kbd>Ctrl</kbd>+<kbd>C</kbd> instead of pressing <kbd>C</kbd>).
+
+### June 4th, 2018
+
+#### New Features
+
+* We added keyboard shortcuts to make the process of building applications even faster. The new hotkeys are for opening editors (such as the page editor, microflow editor, and domain model editor) as well as for publishing and viewing the app. To learn which hotkeys are available, click the information icon in the top-right corner of the Web Modeler, then select the **Keyboard Shortcuts** option.
+
+#### Improvements
+
+* We added support for [Desktop Modeler 7.15.1](../desktop-modeler/7.15). The minimum supported version remains Desktop Modeler 7.11.0.
+
+#### Fixes
+
+* We fixed the issue that occurred when the user clicked **Yes** and wanted to skip the guided product introduction tour, but the tour could only be skipped by clicking **Cancel**. To skip the guided product tour, you now need to click **Yes**.
+* We fixed the issue where you could not use an attribute as a source for an **Open Link** action in a list view.
+* We fixed the issue where Adobe PhoneGap Build service custom widgets were always considered out of date when the widgets were present in pages.
+
 ### May 25th, 2018
 
 #### Improvements
