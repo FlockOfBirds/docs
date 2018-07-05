@@ -40,6 +40,7 @@ To configure a Charts widget with dynamic series, follow these steps:
 1. In the tab **Data source**, select **Dynamic**  
 ![select Dynamic](attachments/charts/charts-dynamic-series-select.png)
 1. Select **Data entity** from which the data values will be retrieved  
+![select Data Points](attachments/charts/charts-dynamic-series-add-entity.png)  
 1. Set the **Data source** as **Database** or **Microflow**
 1. In the tab **Dynamic series**, select the **Series entity**  
 1. Add the **Series name attribute** and **Line color attribute**
